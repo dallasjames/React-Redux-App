@@ -20,6 +20,7 @@ function App(props) {
       ) : (
         <img src={props.dogImage} alt='Good Boi' />
       )}
+      <button onClick={props.fetchGoodBoi}>New Dog</button>
     </div>
   );
 }
